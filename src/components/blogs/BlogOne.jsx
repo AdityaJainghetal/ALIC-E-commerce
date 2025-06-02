@@ -35,7 +35,7 @@ export const BlogOne = () => {
 
       const blogsArray = Array.isArray(data) ? data : data.data || [];
       setBlogs(blogsArray);
-      toast.success('Blogs loaded successfully');
+      
       setLoading(false);
     } catch (err) {
       console.error(err);
