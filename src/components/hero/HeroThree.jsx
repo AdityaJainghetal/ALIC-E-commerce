@@ -64,8 +64,8 @@ console.log("banners",banners)
   // useEffect(() => {
   //   const fetchBanners = async () => {
   //     try {
-  //       const response = await axios.get("http://localhost:8000/banner/alldisplay");
-  //       // http://localhost:8000
+  //       const response = await axios.get("https://alic-backend-2.onrender.com/banner/alldisplay");
+  //       // https://alic-backend-2.onrender.com
   //       setBanners(response.data);
   //     } catch (error) {
   //       console.error("Error fetching banners:", error);
@@ -90,7 +90,7 @@ console.log("banners",banners)
   // const handleSubmit = async (e) => {
   //   e.preventDefault();
   //   try {
-  //     const response = await axios.post("http://localhost:8000/query/create", formData);
+  //     const response = await axios.post("https://alic-backend-2.onrender.com/query/create", formData);
   //     console.log(response.data);
   //     alert("Query submitted successfully!");
   //     setFormData({

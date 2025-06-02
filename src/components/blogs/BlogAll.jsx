@@ -25,7 +25,7 @@
 
 //   const fetchBlogs = async () => {
 //     try {
-//       const response = await fetch('http://localhost:8000/blog/display');
+//       const response = await fetch('https://alic-backend-2.onrender.com/blog/display');
 //       if (!response.ok) {
 //         throw new Error('Failed to fetch blogs');
 //       }
@@ -174,7 +174,7 @@ export const BlogAll = () => {
 
   const fetchBlogs = async () => {
     try {
-      const response = await fetch('http://localhost:8000/blog/display');
+      const response = await fetch('https://alic-backend-2.onrender.com/blog/display');
       if (!response.ok) {
         throw new Error('Failed to fetch blogs');
       }

@@ -16,7 +16,7 @@
 //     useEffect(() => {
 //       const fetchCourses = async () => {
 //         try {
-//           const response = await fetch('http://localhost:8000/judement/display');
+//           const response = await fetch('https://alic-backend-2.onrender.com/judement/display');
 //           if (!response.ok) {
 //             throw new Error('Failed to fetch courses');
 //           }
@@ -137,7 +137,7 @@
 //   useEffect(() => {
 //     const fetchCourses = async () => {
 //       try {
-//         const response = await fetch('http://localhost:8000/judement/display');
+//         const response = await fetch('https://alic-backend-2.onrender.com/judement/display');
 //         if (!response.ok) {
 //           throw new Error('Failed to fetch courses');
 //         }
@@ -222,7 +222,7 @@ export const CoursesAllList = () => {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await fetch('http://localhost:8000/judement/display');
+        const response = await fetch('https://alic-backend-2.onrender.com/judement/display');
         if (!response.ok) {
           throw new Error('Failed to fetch courses');
         }
