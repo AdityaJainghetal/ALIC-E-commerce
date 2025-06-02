@@ -788,11 +788,7 @@ export const Maintestseries = ({ courseId }) => {
                   </li>
                 </ul> */}
                 <div className="td_height_30 td_height_lg_30" />
-                <Link to="/cart" className="td_btn td_style_1 td_radius_10 td_medium w-100">
-                  <span className="td_btn_in td_white_color td_accent_bg">
-                    <span>Buy Now</span>
-                  </span>
-                </Link>
+               
                 <div className="td_height_40 td_height_lg_30" />
                 <h3 className="td_fs_20 td_semibold td_mb_15">Share On:</h3>
                 <div className="td_footer_social_btns td_fs_18 td_accent_color">
@@ -811,7 +807,7 @@ export const Maintestseries = ({ courseId }) => {
               <div className="col-lg-8">
                 <div className="td_course_details">
                   <h2 className="td_fs_48 td_mb_30">
-                    Starting Reputed Education & Build your Skills
+                    Main test series
                   </h2>
                   {/* <div className="td_course_meta td_mb_40">
                     <div className="td_course_avatar">
@@ -851,56 +847,18 @@ export const Maintestseries = ({ courseId }) => {
                         <span>Enroll Now</span>
                       </span>
                     </Link>
-                
-                    <Link
-                      to="/get-offer"
-                      className="td_btn td_radius_10 td_medium"
-                      style={{
-                        border: "2px solid #ff5722",
-                        color: "#ff5722",
-                        backgroundColor: "#fff",
-                        padding: "10px 20px",
-                        textAlign: "center",
-                        display: "inline-block",
-                        transition: "all 0.3s ease",
-                      }}
-                      onMouseEnter={(e) => {
-                        e.currentTarget.style.backgroundColor = "#ff5722";
-                        e.currentTarget.style.color = "#fff";
-                      }}
-                      onMouseLeave={(e) => {
-                        e.currentTarget.style.backgroundColor = "#fff";
-                        e.currentTarget.style.color = "#ff5722";
-                      }}
-                    >
-                      Pre Mentor
-                    </Link>
+  
                   </div>
                   <div className="td_tabs td_style_1 td_mb_50">
-                    <ul className="td_tab_links td_style_2 td_type_2 td_mp_0 td_medium td_fs_20 td_heading_color">
-                      <li className="active">
-                        <a href="#td_tab_1">Overview</a>
-                      </li>
-                      <li><a href="#td_tab_2">Curriculum</a></li>
-                      <li><a href="#td_tab_3">Instructor</a></li>
-                      <li><a href="#td_tab_4">Reviews</a></li>
-                    </ul>
+                   
                     <div className="td_tab_body td_fs_18">
                       <div className="td_tab active" id="td_tab_1">
-                        <h2 className="td_fs_48 td_mb_20">Main test series</h2>
+                        <h2 className="td_fs_48 td_mb_20"></h2>
                         <div dangerouslySetInnerHTML={{ __html: item.CourseDescription || "No description available" }} />
                       </div>
                     </div>
                   </div>
-                  <h2 className="td_fs_48 td_mb_30">What you'll Learn it?</h2>
-                  <ul className="td_list td_style_2 td_type_2 td_fs_18 td_medium td_heading_color td_mp_0">
-                    <li>100% Better results</li>
-                    <li>Building a Bright Future Together</li>
-                    <li>Budget Friendly Education Theme</li>
-                    <li>Empowering Children Through Education</li>
-                    <li>Unlocking Potential Educations</li>
-                    <li>Growing Genius Elementary School</li>
-                  </ul>
+                 
                   <div className="td_height_60 td_height_lg_40" />
                   <h4 className="td_fs_24 td_semibold td_mb_20">Requirements</h4>
                   <div className="td_requirements_list td_medium td_fs_18">

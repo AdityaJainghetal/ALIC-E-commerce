@@ -67,7 +67,7 @@ const [loading, setLoading] = useState(false)
               <span className="td_course_label td_mb_10">{product.Coursename}</span>
 
               <h2 className="td_fs_48 td_mb_30">
-                Starting Reputed Education & Build your Skills
+               {product.Coursename}
               </h2>
 
               <div className="td_course_meta td_mb_40">
@@ -211,19 +211,9 @@ const [loading, setLoading] = useState(false)
               {/* tabs */}
               <div className="td_tabs td_style_1 td_mb_50">
                 <ul className="td_tab_links td_style_2 td_type_2 td_mp_0 td_medium td_fs_20 td_heading_color">
-                  <li className="active">
-                    <a href="#td_tab_1">Overview</a>
-                  </li>
+                  
                 
-                  <li>
-                    <a href="#td_tab_2">Curriculum</a>
-                  </li>
-                  <li>
-                    <a href="#td_tab_3">Instructor</a>
-                  </li>
-                  <li>
-                    <a href="#td_tab_4">Reviews</a>
-                  </li>
+               
                    
                 </ul>
                 <div className="td_tab_body td_fs_18">
